@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Iron Men Sport</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page-shell">
+    <header class="topbar">
+      <a class="brand" href="#home">
+        <span class="brand-badge"><img class="brand-logo" src="img/WhatsApp Image 2026-05-10 at 20.43.47.jpeg" alt="Iron Men logo"></span>
+        Iron Men Sport
+      </a>
+      <nav class="nav-menu" aria-label="Главное меню">
+        <a href="#catalog">Каталог</a>
+        <a href="#features">Преимущества</a>
+        <a href="#contacts">Контакты</a>
+      </nav>
+      <button class="mobile-toggle" aria-label="Открыть меню"><span></span></button>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="hero-copy animate-on-scroll">
+
+          <h1 class="hero-title">Спортивный магазин для чемпионов</h1>
+          <p class="hero-text">Профессиональное оборудование  для тренировок и активного образа жизни. Качество, функциональность и поддержка для ваших целей.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#catalog">Открыть каталог</a>
+            <a class="btn btn-secondary" href="#features">Почему мы</a>
+          </div>
+        </div>
+        <div class="hero-visual" aria-hidden="true">
+          <div class="badge-ring"></div>
+          <img class="hero-logo" src="img/WhatsApp Image 2026-05-10 at 20.43.47.jpeg" alt="Iron Men logo" />
+          <div class="hero-card">
+            <div class="hero-tag">Iron Men</div>
+       
+            <div class="hero-label">Скорость. Стиль. Уверенность.</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="stats reasons" id="features">
+        <div class="section-head animate-on-scroll">
+          <p class="eyebrow">Почему выбирают нас</p>
+          <h2>Надежный стиль и спортивные результаты</h2>
+        </div>
+        <div class="reasons-grid animate-on-scroll">
+          <article class="stat-card">
+            <span>Профессиональный выбор</span>
+            <p>Мы отбираем только актуальный ассортимент для спорта, тренировок и активного отдыха.</p>
+          </article>
+          <article class="stat-card">
+            <span>Качество сверху</span>
+            <p>Каждый товар проходит строгий отбор, чтобы вы получали действительно рабочую экипировку.</p>
+          </article>
+          <article class="stat-card">
+            <span>Поддержка 24/7</span>
+            <p>Помогаем выбрать, обменять и подобрать размер с честными консультациями.</p>
+          </article>
+          <article class="stat-card">
+            <span>Быстрая доставка</span>
+            <p>Отправляем заказы оперативно, чтобы вы успели обновиться до следующей тренировки.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="catalog" id="catalog">
+        <div class="section-head animate-on-scroll">
+          <p class="eyebrow">Каталог</p>
+          <h2>Каталог</h2>
+          <p class="catalog-subtext">Лучшие товары для тренировок.</p>
+        </div>
+        <div class="catalog-filters animate-on-scroll" aria-label="Фильтр каталога">
+         
+        </div>
+        <div class="product-grid" id="productGrid"></div>
+      </section>
+
+      <section class="promo animate-on-scroll">
+        <div>
+          <p class="eyebrow">Специальное предложение</p>
+          <h2>Коллекция Iron Men уже в продаже</h2>
+          <p>Прояви уверенность в каждой тренировке с премиальным спортивным комплектом. Готово для зала и улицы.</p>
+        </div>
+        <a class="btn btn-primary" href="#catalog">Смотреть товары</a>
+      </section>
+
+      <section class="contacts" id="contacts">
+        <div class="section-head animate-on-scroll">
+          <p class="eyebrow"></p>
+          <h2>Контакты</h2>
+        </div>
+        <div class="contact-grid animate-on-scroll">
+          <article>
+            <h3>WhatsApp</h3>
+            <p>
+              <a class="address-link" href="https://wa.me/996507165495" target="_blank" rel="noreferrer noopener">
+                <img class="social-icon" src="img/whattsapp.png" alt="WhatsApp">
+                +996 507-165-495
+              </a>
+            </p>
+          </article>
+          <article>
+            <h3>Адрес</h3>
+            <p>
+              <a class="address-link" href="https://www.google.com/maps/search/%D1%83%D0%BB.+%D0%A1%D0%BF%D0%BE%D1%80%D1%82%D0%B8%D0%B2%D0%BD%D0%B0%D1%8F,+12,+%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0" target="_blank" rel="noreferrer noopener">
+                <img class="address-icon" src="img/1737593515467_big_vlru.jpg" alt="Иконка адреса" />
+                ул. Спортивная, 12, Москва
+              </a>
+            </p>
+          </article>
+          <article>
+            <h3>Instagram</h3>
+            <p>
+              <a class="address-link" href="https://www.instagram.com/ironmensport/" target="_blank" rel="noreferrer noopener">
+                <img class="social-icon" src="img/instagram-icon.svg" alt="Instagram">
+                @ironmensport
+              </a>
+            </p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© 2026 Iron Men Sport — адаптивный спортивный магазин</p>
+    </footer>
+  </div>
+
+  <div id="productModal" class="modal">
+    <div class="modal-content"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
