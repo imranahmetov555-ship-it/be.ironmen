@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Instagram">
+  <defs>
+    <linearGradient id="instaGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#feda75"/>
+      <stop offset="25%" stop-color="#fa7e1e"/>
+      <stop offset="50%" stop-color="#d62976"/>
+      <stop offset="75%" stop-color="#962fbf"/>
+      <stop offset="100%" stop-color="#405de6"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#instaGradient)"/>
+  <path d="M349.33 69.33H162.67A93.33 93.33 0 0 0 69.33 162.67v186.66A93.33 93.33 0 0 0 162.67 442.67h186.66A93.33 93.33 0 0 0 442.67 349.33V162.67A93.33 93.33 0 0 0 349.33 69.33zm61.34 279.99a61.39 61.39 0 0 1-61.34 61.34H162.67a61.39 61.39 0 0 1-61.34-61.34V162.67a61.39 61.39 0 0 1 61.34-61.34h186.66a61.39 61.39 0 0 1 61.34 61.34z" fill="#fff" opacity="0.95"/>
+  <path d="M256 171.33a84.67 84.67 0 1 0 84.67 84.67A84.77 84.77 0 0 0 256 171.33zm0 140.01a55.34 55.34 0 1 1 55.34-55.34A55.4 55.4 0 0 1 256 311.34z" fill="#fff"/>
+  <circle cx="360" cy="151.33" r="17.33" fill="#fff"/>
+</svg>
